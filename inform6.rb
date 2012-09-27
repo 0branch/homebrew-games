@@ -1,9 +1,9 @@
 require 'formula'
 
 class Inform6 < Formula
-  url 'http://ifarchive.flavorplex.com/if-archive/infocom/compilers/inform6/source/inform-6.31.1.tar.gz'
+  url 'http://ifarchive.flavorplex.com/if-archive/infocom/compilers/inform6/source/inform-6.32.1.tar.gz'
   homepage 'http://www.inform-fiction.org/inform6.html'
-  md5 '02e64fc13c06a888a6c0f97974e2c02c'
+  md5 'df582782f011d78f693d42abe6083250'
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
